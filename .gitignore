@@ -1,0 +1,60 @@
+# Data directories
+Data/Raw/
+Data/Cleaned/
+
+# System files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large files
+*.gdb
+*.shp
+*.dbf
+*.prj
+*.shx
+*.csv
+*.rds
+*.geojson
+
+# Reference code folder
+Reference_code/
+Reference_code/*
+Output/Archive/
+Output/Archive/*
+Code/Exploratory/
+Code/Exploratory/*
+
+# Session Data files
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# R Environment Variables
+.Renviron
+
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Environment files
+.env
+.Renviron
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Editor specific
+*.swp
+*.swo
+.idea/
+.vscode/ 
+
+!Data/Cleaned/*.csv 
+
+*.sh 
